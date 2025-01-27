@@ -1,0 +1,23 @@
+
+# Ignore environment and credentials files
+.env
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore VSCode settings and other IDE configurations
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore Poetry lock file (optional)
+poetry.lock

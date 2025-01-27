@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "data scrape stream"
+version = "0.1.0"
+description = ""
+authors = ["SaurabhVyawahare <thelenstriangle@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.9.7 || >3.9.7, <=3.12.7"
+datasets = "^3.0.1"
+docutils = "<0.21"
+fastapi = {version = "^0.115.0", extras = ["all"]}
+uvicorn = "^0.31.0"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+pyjwt = "^2.9.0"
+sqlalchemy = "^2.0.35"
+pymysql = "^1.1.1"
+mysql-connector-python = "^9.0.0"
+python-multipart = "^0.0.12"
+python-dotenv = "^1.0.1"
+boto3 = "^1.35.38"
+openai = "^1.14.0"
+streamlit = "^1.39.0"
+snowflake-connector-python = "^3.12.3"
+pydantic = "^2.7.4"
+llama-index = "^0.10.1"  
+langchain = "^0.3.6"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
